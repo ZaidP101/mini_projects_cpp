@@ -52,6 +52,28 @@ The application stores medicine records in a `vector` and allows users to intera
 
 ---
 
+### 3. Inventory Management System
+
+A C++ console application that simulates an inventory management system. The user can add, search, sell, view, and delete item records, with price and quantity tracking.
+
+#### Features
+
+- **Add Items**: Add a new item record, including name, quantity, and price.
+- **Search Items**: Search for an item by its name to view details such as quantity, price, and total value.
+- **Sell Items**: Reduce the quantity of an item when a sale is made and update the inventory.
+- **View All Items**: Display all item records with their current quantity and total price.
+- **Delete Items**: Remove an item record by its name.
+
+#### How It Works
+
+The application stores item records in a vector of structs, allowing users to interact with the records using various options in the console. It calculates the total price of items based on their quantity and price.
+
+#### Requirements
+
+- A C++ compiler (g++ or equivalent)
+
+---
+
 ## Contributing
 
 Feel free to fork this repository, make improvements, and create a pull request. Contributions are always welcome!
